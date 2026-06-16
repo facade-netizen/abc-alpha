@@ -1,0 +1,63 @@
+name: alpha_admin
+description: "A web based white label management application."
+publish_to: 'none' 
+version: 0.0.1+18
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio:
+  get: 
+  intl:
+  http:
+  hive:  
+  image:
+  pinput:
+  marquee:
+  chopper:
+  protobuf:
+  go_router:
+  flutter_svg:
+  flutter_bloc:
+  file_selector:
+  flutter_quill:
+  url_launcher:
+  flutter_switch:
+  pretty_qr_code:
+  table_calendar:
+  universal_html:
+  signalr_netcore:
+  dropdown_button2:
+  image_picker_web:
+  animated_snack_bar:
+  flutter_colorpicker:
+  cached_network_image:
+  syncfusion_flutter_core:
+  syncfusion_flutter_xlsio:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  flutter_lints:
+  hive_generator:
+  chopper_generator:
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/svg/
+    - assets/images/
+    
+  fonts:
+    - family: UniformRounded
+      fonts:
+        - asset: assets/fonts/ur.ttf
+        - asset: assets/fonts/urbold.ttf
+        - asset: assets/fonts/urmedium.ttf
+
